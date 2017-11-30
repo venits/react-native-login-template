@@ -31,7 +31,7 @@ react-native run-ios
 
 Project is **not using any state management containers like Redux, Flux or MobX**, so feel free to implement your favourite one.
 
-Project uses [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) for navigation. **There are only 2 screens** so there is not much to navigate between ;)
+Project uses [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) for navigation. **There are only 2 screens** so there is not much to navigate between.
 
 **Feel free to implement your favourite navigation module.**
 
@@ -112,8 +112,6 @@ If you need help or more customized version email me: tomasz.przybyl.it@gmail.co
 **Thanks for any donations, have a great day and Happy Coding ;)**
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XN8LRKQRBZJ86)
-
-### Getting Started
 
 License
 ----
