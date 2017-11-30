@@ -1,13 +1,13 @@
 # React Native Login Template
 
-------
 
- More advanced React Native project demonstrating login screen with cool settings to **customize appearance of main screen.**
+ More advanced React Native project demonstrating simple login screen with cool
+ settings to **customize appearance of main screen.**
 
 - [Preview](#preview)
 - [Instalation](#installation)
-- [Support And Donations](#support-and-donations)
 - [Code Style](#code-style)
+- [Support And Donations](#support-and-donations)
 
 ## Preview
 
@@ -29,6 +29,7 @@ react-native run-ios
 ## Code Style
 
 I am using eslint :)
+
 Here is my **.eslintrc.js** config file:
 ```javascript
 module.exports = {
