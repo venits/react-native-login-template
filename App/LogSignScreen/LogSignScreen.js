@@ -17,13 +17,17 @@ export default class LogSignScreen extends Component {
     this.signInScreen.changeZindex();
   };
 
-  switchScreens = (index) => {
-    if (index === 0) {
-      this.loginScreen.animationView.fadeInLeft(600).then(this.changeZindex);
-      this.signInScreen.animationView.fadeOutRight(400);
-    } else {
-      this.loginScreen.animationView.fadeOutLeft(400);
-      this.signInScreen.animationView.fadeInRight(600).then(this.changeZindex);
+  switchScreens = index => () => {
+    if (this.topTabs.state.currentTabIndex !== index) {
+      if (index === 0) {
+        this.loginScreen.animationView.fadeInLeft(600).then(this.changeZindex);
+        this.signInScreen.animationView.fadeOutRight(400);
+      } else {
+        this.loginScreen.animationView.fadeOutLeft(400);
+        this.signInScreen.animationView.fadeInRight(600).then(this.changeZindex);
+      }
+      this.topTabs.state.tabsStyles.reverse();
+      this.topTabs.setState({ currentTabIndex: index });
     }
   };
 
@@ -71,7 +75,7 @@ export default class LogSignScreen extends Component {
             />
           </Animatable.View>
           <SignInScreen
-            switch={this.switchScreens}
+            switch={this.switchScreens(0)}
             move={this.moveToMainAppScreen}
             scroll={this.scrollToTextInput}
             ref={(ref) => { this.signInScreen = ref; }}
