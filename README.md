@@ -2,20 +2,44 @@
 
 ------
 
-##### More advanced React Native project demonstrating login screen with cool settings to customize appearance of main screen.
+ More advanced React Native project demonstrating login screen with cool settings to **customize appearance of main screen.**
 
-- [Getting Started](#getting-started)
-- [Getting Help](#getting-help)
-- [Documentation](#documentation)
-- [Upgrading](#upgrading)
-- [Contributing](#contributing)
-- [License](#license)
+- [Preview](#preview)
+- [Instalation](#installation)
+- [Support And Donations](#support-and-donations)
+- [Code Style](#code-style)
 
-### Demo
+## Preview
 
 ![Alt Text](https://raw.githubusercontent.com/venits/react-native-map-clustering/master/demo.sgif) 
 
-### Support and donations ;)
+## Installation
+1. Download or copy this repository.
+2. Using terminal, go to project folder and run this command:
+
+```javascript
+npm install
+```
+3. Run it on iOS simulator using command:
+```javascript
+react-native run-ios
+```
+4. **That's all. Enjoy amazing login screen for your amazing application :)**
+
+## Code Style
+
+I am using eslint :)
+Here is my **.eslintrc.js** config file:
+```javascript
+module.exports = {
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+       "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    }
+};
+```
+## Support And Donations
 
 If you need help or more customized version email me: tomasz.przybyl.it@gmail.com
 
