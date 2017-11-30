@@ -1,9 +1,7 @@
 # React Native Login Template
 
 
- More advanced React Native project demonstrating simple login screen with cool
- 
- settings to **customize appearance of main screen.**
+ More advanced React Native project demonstrating simple login screen with cool settings to **customize appearance of main screen.**
 
 - [Preview](#preview)
 - [Instalation](#installation)
@@ -31,11 +29,11 @@ react-native run-ios
 
 ## Overview
 
-Project is **not using any state management containers like Redux, Flux or MobX**, so feel free to implement your favorite one.
+Project is **not using any state management containers like Redux, Flux or MobX**, so feel free to implement your favourite one.
 
 Project uses [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) for navigation. **There are only 2 screens** so there is not much to navigate between ;)
 
-**Feel free to implement your favorite navigation module.**
+**Feel free to implement your favourite navigation module.**
 
 I created simple splash screen using [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen) module, **if you want to make your own splash screen please take a look at this module.** Everything you need is described there.
 
@@ -46,42 +44,42 @@ You can add or remove languages that are available for user to choose.
 Adding new language:
 1. Go to this directory:
 ```javascript
-./App/AppGlobalConfig/Language/Language.js
+/App/AppGlobalConfig/Language/Language.js
 ```
 2. In Language.js you can easily see pattern:
 ```javascript
 GLOBAL.appLanguages = {
-        english: {
-         // all values
-        },
-        polski: {
-         // all values
-        },
+    english: {
+     // all values
+    },
+    polski: {
+     // all values
+    },
 };
 ```
 3. After adding new language it should look like this:
 ```javascript
 GLOBAL.appLanguages = {
-        english: {
-         // all values
-        },
-        polski: {
-         // all values
-        },
-        español: {
-         // all values
-        },
+    english: {
+     // all values
+    },
+    polski: {
+     // all values
+    },
+    español: {
+     // all values
+    },
 };
 ```
 4. Example of translating values: (**You have to translate all values!**)
 ```javascript
 GLOBAL.appLanguages = {
-        english: {
-         logOut: 'Logout',
-        },
-        polski: {
-         logOut: 'Wyloguj się',
-        },
+    english: {
+     logOut: 'Logout',
+    },
+    polski: {
+     logOut: 'Wyloguj się',
+    },
 };
 ```
 5. After translating all values, restart app and test if everything is set up correctly.
