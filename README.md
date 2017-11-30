@@ -39,9 +39,10 @@ I created simple splash screen using [react-native-splash-screen](https://github
 
 ## Managing Languages
 You can add or remove languages that are available for user to choose.
+
 **Please make pull requests with languages you manage to add to your application. Together we can create solid data set of languages ;)**
 
-Adding new language:
+##### Adding new language:
 1. Go to this directory:
 ```javascript
 /App/AppGlobalConfig/Language/Language.js
@@ -76,13 +77,15 @@ GLOBAL.appLanguages = {
 GLOBAL.appLanguages = {
     english: {
      logOut: 'Logout',
+     // all rest
     },
     polski: {
      logOut: 'Wyloguj się',
+     // all rest
     },
 };
 ```
-5. After translating all values, restart app and test if everything is set up correctly.
+5. After translating all values, restart app and test if everything works correctly.
 
 ## Code Style
 
