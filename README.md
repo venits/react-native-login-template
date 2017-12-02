@@ -8,11 +8,12 @@
 - [Overview](#overview)
 - [Managing Languages](#managing-languages)
 - [Code Style](#code-style)
-- [Support And Donations](#support-and-donations)
+- [Support](#support)
 
 ## Preview
 
-![Alt Text](https://raw.githubusercontent.com/venits/react-native-map-clustering/master/demo.sgif) 
+![Alt Text](https://raw.githubusercontent.com/venits/react-native-router-flux/master/photo1.png) 
+![Alt Text](https://raw.githubusercontent.com/venits/react-native-router-flux/master/photo2.png) 
 
 ## Installation
 1. Download or copy this repository.
@@ -103,15 +104,9 @@ module.exports = {
     }
 };
 ```
-## Support And Donations
+## Support
 
 If you need help or more customized version email me: tomasz.przybyl.it@gmail.com
-
-**I am a student so any donations will help me to create more cool modules ;)**
-
-**Thanks for any donations, have a great day and Happy Coding ;)**
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XN8LRKQRBZJ86)
 
 License
 ----
