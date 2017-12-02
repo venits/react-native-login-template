@@ -14,6 +14,9 @@
 
 ![Alt Text](https://raw.githubusercontent.com/venits/react-native-router-flux/master/photo1.png) 
 ![Alt Text](https://raw.githubusercontent.com/venits/react-native-router-flux/master/photo2.png) 
+![Alt Text](https://raw.githubusercontent.com/venits/react-native-router-flux/master/photo3.png)
+![Alt Text](https://raw.githubusercontent.com/venits/react-native-router-flux/master/photo4.png)
+![Alt Text](https://raw.githubusercontent.com/venits/react-native-router-flux/master/photo5.png)
 
 ## Installation
 1. Download or copy this repository.
