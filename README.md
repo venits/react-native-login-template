@@ -10,6 +10,17 @@
 - [Code Style](#code-style)
 - [Support](#support)
 
+---
+
+**react-native-login-template** is proudly sponsored by
+
+<a href="https://nativeforms.com/?utm_source=GitHub&utm_campaign=react-native-login-template" rel="nofollow" target="_blank">
+  <img src="https://raw.githubusercontent.com/venits/native-forms/master/assets/sponsor.png" width="350"><br />
+  NativeForms - Build forms, surveys and polls for React Native apps.
+</a>
+
+---
+
 ## Preview
 
 ![Alt Text](https://raw.githubusercontent.com/venits/react-native-router-flux/master/photo1.png) 
