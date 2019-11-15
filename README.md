@@ -6,7 +6,7 @@ More templates at [ReactNativeMarket.com](http://reactnativemarket.com/) 💖
 
 <a href="https://nativeforms.com" rel="nofollow" target="_blank">
   <img src="https://raw.githubusercontent.com/venits/native-forms/master/assets/sponsor.png" width="350"><br />
-  NativeForms - Build forms, surveys and polls for React Native apps.
+  Build forms, surveys and polls for React Native apps.
 </a>
 
 
