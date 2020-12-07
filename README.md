@@ -1,9 +1,15 @@
-# React Native Simple Login Template
+# React Native Login Template
 
-More templates at [ReactNativeMarket.com](http://reactnativemarket.com/) 💖
+This repo is proudly sponsored by:
 
-You can find more details about this template here:
-https://github.com/venits/react-native-login-template
+<a href="https://reactnativemarket.com/" rel="nofollow" target="_blank">
+  <img src="https://raw.githubusercontent.com/venits/react-native-market/master/assets/banner.png" width="280"><br />
+  React Native Templates & Starter Kits and Apps for easier start.
+</a>
+
+## Demo
+
+https://simple-login-template.web.app
 
 ## How to use?
 
@@ -38,6 +44,6 @@ yarn install
 In case of any questions or problems, please contact me at:
 [hello@reactnativemarket.com](mailto:hello@reactnativemarket.com)
 
-### Happy Coding 💖
+### Happy Coding 🚀
 
 ### [ReactNativeMarket.com](http://reactnativemarket.com/)
