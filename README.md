@@ -2,13 +2,8 @@
 
 More templates at [ReactNativeMarket.com](http://reactnativemarket.com/) 💖
 
-**react-native-login-template** is proudly sponsored by
-
-<a href="https://nativeforms.com" rel="nofollow" target="_blank">
-  <img src="https://raw.githubusercontent.com/venits/native-forms/master/assets/sponsor.png" width="350"><br />
-  NativeForms - Build forms, surveys and polls for React Native apps.
-</a>
-
+You can find more details about this template here:
+https://github.com/venits/react-native-login-template
 
 ## How to use?
 
@@ -30,12 +25,6 @@ yarn install
  yarn ios // yarn android
 ```
 
-Project was created using [Expo](https://expo.io/). If you want standard native project please run following command:
-
-```js
-expo eject
-```
-
 ## Preview
 
 ![homescreen](https://raw.githubusercontent.com/venits/react-native-market/master/assets/simple-login-template/homescreen.png)
@@ -43,11 +32,6 @@ expo eject
 ![register](https://raw.githubusercontent.com/venits/react-native-market/master/assets/simple-login-template/register.png)
 ![forgot](https://raw.githubusercontent.com/venits/react-native-market/master/assets/simple-login-template/forgot.png)
 ![dashboard](https://raw.githubusercontent.com/venits/react-native-market/master/assets/simple-login-template/dashboard.png)
-
-## Live preview on Expo
-
-Template is avaiable on Expo:
-https://expo.io/@venits/react-native-simple-login-template
 
 ## Support
 

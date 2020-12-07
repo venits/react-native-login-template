@@ -8,7 +8,8 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-web-report/
 
 # macOS
 .DS_Store
+yarn.lock
+.expo-shared

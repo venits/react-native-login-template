@@ -1,17 +1,16 @@
-import React, { memo } from 'react';
-import { StyleSheet, Text } from 'react-native';
-import { theme } from '../core/theme';
+import React from 'react'
+import { StyleSheet } from 'react-native'
+import { Text } from 'react-native-paper'
 
-const Paragraph = ({ children }) => <Text style={styles.text}>{children}</Text>;
+const Paragraph = (props) => <Text style={styles.text} {...props} />
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 16,
-    lineHeight: 26,
-    color: theme.colors.secondary,
+    fontSize: 15,
+    lineHeight: 21,
     textAlign: 'center',
-    marginBottom: 14,
+    marginBottom: 12,
   },
-});
+})
 
-export default memo(Paragraph);
+export default Paragraph
