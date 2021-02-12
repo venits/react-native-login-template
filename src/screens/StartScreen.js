@@ -10,7 +10,7 @@ const StartScreen = ({ navigation }) => (
     <Logo />
     <Header>Login Page</Header>
     <Paragraph>
-      The easiest way to start with your amazing application.
+      Welcome!! Fitness is the key to a great future
     </Paragraph>
     <Button mode="contained" onPress={() => navigation.navigate('LoginScreen')}>
       Login
