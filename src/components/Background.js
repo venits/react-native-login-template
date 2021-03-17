@@ -2,17 +2,19 @@ import React from 'react'
 import { ImageBackground, StyleSheet, KeyboardAvoidingView } from 'react-native'
 import { theme } from '../core/theme'
 
-const Background = ({ children }) => (
-  <ImageBackground
-    source={require('../assets/background_dot.png')}
-    resizeMode="repeat"
-    style={styles.background}
-  >
-    <KeyboardAvoidingView style={styles.container} behavior="padding">
-      {children}
-    </KeyboardAvoidingView>
-  </ImageBackground>
-)
+export default function Background({ children }) {
+  return (
+    <ImageBackground
+      source={require('../assets/background_dot.png')}
+      resizeMode="repeat"
+      style={styles.background}
+    >
+      <KeyboardAvoidingView style={styles.container} behavior="padding">
+        {children}
+      </KeyboardAvoidingView>
+    </ImageBackground>
+  )
+}
 
 const styles = StyleSheet.create({
   background: {
@@ -30,5 +32,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 })
-
-export default Background

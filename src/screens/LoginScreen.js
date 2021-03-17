@@ -11,7 +11,7 @@ import { theme } from '../core/theme'
 import { emailValidator } from '../helpers/emailValidator'
 import { passwordValidator } from '../helpers/passwordValidator'
 
-const LoginScreen = ({ navigation }) => {
+export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState({ value: '', error: '' })
   const [password, setPassword] = useState({ value: '', error: '' })
 
@@ -57,7 +57,7 @@ const LoginScreen = ({ navigation }) => {
       />
       <View style={styles.forgotPassword}>
         <TouchableOpacity
-          onPress={() => navigation.navigate('ForgotPasswordScreen')}
+          onPress={() => navigation.navigate('ResetPasswordScreen')}
         >
           <Text style={styles.forgot}>Forgot your password?</Text>
         </TouchableOpacity>
@@ -94,5 +94,3 @@ const styles = StyleSheet.create({
     color: theme.colors.primary,
   },
 })
-
-export default LoginScreen

@@ -2,7 +2,9 @@ import React from 'react'
 import { StyleSheet } from 'react-native'
 import { Text } from 'react-native-paper'
 
-const Paragraph = (props) => <Text style={styles.text} {...props} />
+export default function Paragraph(props) {
+  return <Text style={styles.text} {...props} />
+}
 
 const styles = StyleSheet.create({
   text: {
@@ -12,5 +14,3 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
 })
-
-export default Paragraph

@@ -3,21 +3,23 @@ import { View, StyleSheet, Text } from 'react-native'
 import { TextInput as Input } from 'react-native-paper'
 import { theme } from '../core/theme'
 
-const TextInput = ({ errorText, description, ...props }) => (
-  <View style={styles.container}>
-    <Input
-      style={styles.input}
-      selectionColor={theme.colors.primary}
-      underlineColor="transparent"
-      mode="outlined"
-      {...props}
-    />
-    {description && !errorText ? (
-      <Text style={styles.description}>{description}</Text>
-    ) : null}
-    {errorText ? <Text style={styles.error}>{errorText}</Text> : null}
-  </View>
-)
+export default function TextInput({ errorText, description, ...props }) {
+  return (
+    <View style={styles.container}>
+      <Input
+        style={styles.input}
+        selectionColor={theme.colors.primary}
+        underlineColor="transparent"
+        mode="outlined"
+        {...props}
+      />
+      {description && !errorText ? (
+        <Text style={styles.description}>{description}</Text>
+      ) : null}
+      {errorText ? <Text style={styles.error}>{errorText}</Text> : null}
+    </View>
+  )
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -38,5 +40,3 @@ const styles = StyleSheet.create({
     paddingTop: 8,
   },
 })
-
-export default TextInput

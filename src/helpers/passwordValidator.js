@@ -1,4 +1,5 @@
 export function passwordValidator(password) {
-  if (!password || password.length <= 0) return "Password can't be empty."
+  if (!password) return "Password can't be empty."
+  if (password.length < 5) return 'Password must be at least 5 characters long.'
   return ''
 }

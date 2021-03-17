@@ -12,7 +12,7 @@ import { emailValidator } from '../helpers/emailValidator'
 import { passwordValidator } from '../helpers/passwordValidator'
 import { nameValidator } from '../helpers/nameValidator'
 
-const RegisterScreen = ({ navigation }) => {
+export default function RegisterScreen({ navigation }) {
   const [name, setName] = useState({ value: '', error: '' })
   const [email, setEmail] = useState({ value: '', error: '' })
   const [password, setPassword] = useState({ value: '', error: '' })
@@ -94,5 +94,3 @@ const styles = StyleSheet.create({
     color: theme.colors.primary,
   },
 })
-
-export default RegisterScreen
